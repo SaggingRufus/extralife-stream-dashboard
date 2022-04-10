@@ -1,0 +1,17 @@
+{
+    "login": {
+        "enabled": true,
+        "sessionSecret": "supersecret",
+        "twitch": {
+            "enabled": true,
+            "clientID": "CLIENT_ID",
+            "clientSecret": "CLIENT_SECRET",
+            "scope": "user:read:email",
+            "allowedUsernames": [
+              "saggingrufus",
+              "affinity_na",
+              "mccalamity3" 
+            ]
+        }
+    }
+}
